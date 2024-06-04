@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  min-height: 100vh; /* 전체 뷰포트 높이 */
+  margin: 0; /* 기본 마진 제거 */
+  text-align: center;
+}
+
+.mainbox {
+  width: 100%; /* 전체 폭으로 조정하여 정렬 개선 */
+  padding: 20px;
+  
+  
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly; /* 폼들을 수평으로 균등하게 배치 */
+  align-items: flex-start; /* 폼들을 위쪽에 맞춤 */
+}
+
+.translation-form {
+  flex: 1; /* 각 폼은 동일한 너비를 차지함 */
+  margin: 10px; /* 폼 사이의 마진 */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; /* 테두리 둥글게 처리 */
+}
+
+
+
+form input[type="file"],
+form input[type="submit"],
+form textarea,
+form select {
+  width: 100%; /* 입력 요소가 폼 너비 전체를 사용하도록 설정 */
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.textarea2{
+  width: 566.67px; /* 입력 요소가 폼 너비 전체를 사용하도록 설정 */
+  height: 238px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50; /* 제출 버튼의 배경 색 */
+  color: white; /* 텍스트 색상 */
+  cursor: pointer; /* 마우스 오버 시 포인터 변경 */
+  transition: background-color 0.3s ease; /* 색상 변경 애니메이션 */
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049; /* 마우스 오버 시 배경 색 변경 */
+}
+
+form textarea {
+  resize: vertical; /* 세로로만 크기 조절 가능 */
+  width: 566.67px;
+}
+
+.preview-img{
+  width: 588.67px;
+  height: 273.5px;
+}
+
+#file{
+  width: 566.67px;
+}
+
+.textarea3{
+  height: 124.5px;
+}
+
+.img111{
+  background-color: rgba(211, 228, 234, 255);
+}
+
+
